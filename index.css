@@ -1,0 +1,344 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(75, 68, 126);
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.nav-links a{
+    color: #fff;
+    font-weight: bolder;
+ 
+}
+.nav-links a:hover{
+    color: blue; 
+}
+.nav_page{
+    max-width: 600px;
+    background-color: rgb(83, 83, 163);
+    margin: 0 auto;
+    height: 500px;
+    text-align: center;
+    padding: 20px;
+    align-items: center;
+    position: relative;
+}
+.x{
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 26px;
+    color: #fff;
+    cursor: pointer;
+    background-color:   transparent;
+}
+.nav_page li{
+    font-size: 46px;
+   
+}
+.nav_page li:hover{
+    border: 1px solid white;
+   
+}
+.nav_page p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+}
+.nav_page button{
+    font-size: 26px;
+    padding: 10px;
+    border: 2px solid #fff;
+    border-radius: 14px;
+    width: 17rem;
+    background-color:   transparent;
+   
+}
+.hidden{
+    display: none;
+}
+.section1{
+    width: 100%;
+    height: 90vh;
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.52), rgba(0, 19, 93, 0.73)),
+    url('./img/1.webp');
+    /* background-image: url("./img/1.webp"); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(to right rgb(0,0,0,0.9)) rgb(0, 0, 0); */
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: -0px;
+  letter-spacing: 0;
+} */
+.big-text{
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 900;
+}
+.boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.plane-text{
+    color: #fff;
+    font-size: 2rem;
+}
+.btn{
+    padding: 15px;
+    margin: 13px;
+    background-color: rgb(12, 110, 221);
+    border-radius: 16px;
+    border: none;
+    margin-left: 500px;
+}
+button a{
+    color: #fff;
+}
+
+/* section2 */
+.section2{
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.img{
+    height: 98vh;
+    width: 50%;
+}
+.big-image{
+    width: 100%;
+    height: 100%;
+    padding: 5px 0px;
+}
+.blue-text{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+.p{
+    color: #fff;
+    font-family: sans-serif;
+}
+.wap{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.big-text1{
+    color: #fff;
+    font-size: 3rem;
+}
+/* SECTION 3 */
+.section3{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.work-text{
+    padding: 10px 10px;
+    flex: 1;
+}
+.two{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.work-img{
+    flex: 1;
+    width: 50%;
+    height: 79vh;
+}
+.work-img img{
+    width: 100%;
+    height: 100%;
+}
+.heading{
+    color: blue;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.work-p{
+    color: lightblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+}
+/* SECTION 4 */
+.section4{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.corner-img{
+    flex: 1;
+    height: 79vh;
+    width: 50%;
+}
+.corner-img img{
+    height: 100%;
+    width: 100%;
+}
+.corner-text{
+    flex: 1;
+    padding: 10px 10px;
+}
+.fop{
+    padding: 10px 50px;
+}
+/* SECTION 5 */
+.section5{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+/* section6 */
+.section6{
+    height: 100vh;
+    width: 100%;
+    background-color:rgba(2, 0, 131, 0.73);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading1{
+    color: #fff;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.cen{
+    padding: 10px;
+    width: 500px;
+    height: 400px;
+    background-color: rgba(34, 19, 172, 0.445);
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+}
+.footer{
+    padding: 20px 0px;
+    width: 100%;
+    height: 20vh;
+    background-color: rgba(34, 19, 172, 0.788);
+}
+.gg{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+@media screen and (max-width: 768px){
+
+    .nav-items{
+        display: none;
+
+    }
+    .nav_page{
+        display: block;
+    }
+    .section1{
+        padding: 20px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .big-text{
+        font-size: 2.5rem;
+    }
+    .boxes{
+        /* display: flex; */
+        flex-direction: column;
+    }
+    .btn{
+        display: none;
+    }
+    .section2{
+        flex-direction: column-reverse;
+        height: 160vh;
+        align-items: center;
+
+    }
+    .img{
+        height: 50vh;
+        width: 70%;
+    }
+    /* .big-text1{
+        font-size: 2rem;
+    } */
+    .section3{
+        flex-direction: column;
+        height: 160vh;
+        align-items: center;
+
+    }
+    .work-img{
+        width: 80%;
+        height: 50vh;
+    }
+    .section4{
+        flex-direction: column-reverse;
+        height: 100vh;
+        align-items: center;
+
+    }
+    .corner-img{
+        height: 50vh;
+        width: 80%;
+    }
+    .section5{
+        flex-direction: column;
+        height: 150vh;
+        align-items: center;
+        padding: 20px;
+
+    }
+    .footer{
+        
+    }
+}
